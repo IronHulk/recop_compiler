@@ -35,5 +35,5 @@ A screen short of the running program is shown below.
 <ul>
   <li>As shown above, the instruction is color coded, from left to right, addressing mode, opcode, rz, rx and operand are distinguished by different colors.</li>
   <li>The operand input can be binary, decimal or hexadecimal numbers. However the register number of rx and rz should always be binary.</li>
-  <li>Due to the limitation of windows cmd prompt, this program won't be able to display multiple colors under windows environment, instead, it spread out different code segments to increase the readability. For example the last color coded machine code shown above will become 01 111000 1100 1100 0000000000001010</li>
+  <li>Due to the limitation of windows cmd prompt, this program won't be able to display multiple colors under windows environment, instead, it instead spreads out different code segments to increase readability. For example the last color coded machine code shown above will become 01 111000 1100 1100 0000000000001010</li>
 </ul>
