@@ -26,8 +26,8 @@ A screen short of the running program is shown below.
     jump #xbeef
     // LDR Rz $Operand
     ldr 0011 $0000000001100100
-    ldr 0011 #d100
-    ldr 0011 #x0064
+    ldr 0011 $d100
+    ldr 0011 $x0064
     
 <img src="compiler_demo.png" width="400" height="550"/>
 
