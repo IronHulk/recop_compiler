@@ -125,6 +125,7 @@ def main():
             if 'd' in operand:
                 operand = operand.replace('d', '')
                 operand = format(int(operand), '016b')
+               
             elif 'x' in operand:
                 operand = operand.replace('x', '')
                 if len(operand) is not 4:
@@ -144,6 +145,9 @@ def main():
             elif len(asm_instruction) is 3:
                 rz = asm_instruction[1]
                 # rx = 'xxxx'
+                rx = '0000'
+            elif len(asm_instruction) is 2 and (asm_instruction[0].upper() == 'JMP'):
+                rz = '0000'
                 rx = '0000'
         elif am is '10':
             operand = asm_instruction[len(asm_instruction)-1]
