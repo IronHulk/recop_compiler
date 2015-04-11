@@ -42,8 +42,8 @@ machine_instruction = ''
 am = ''
 opcode = ''
 operand  = ''
-rx = ''
-rz = ''
+rx = '0000'
+rz = '0000'
 
 def greeting():
 
