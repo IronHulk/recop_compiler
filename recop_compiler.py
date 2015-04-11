@@ -38,12 +38,6 @@ am_dict = {'Inherent': '00',
         'Register': '11'}
 
 
-machine_instruction = ''
-am = ''
-opcode = ''
-operand  = ''
-rx = '0000'
-rz = '0000'
 
 def greeting():
 
@@ -84,6 +78,13 @@ def greeting():
 
 
 def main():
+    machine_instruction = ''
+    am = ''
+    opcode = ''
+    operand  = ''
+    rx = '0000'
+    rz = '0000'
+
     greeting()
     ins_table = texttable.Texttable()
     while True:
