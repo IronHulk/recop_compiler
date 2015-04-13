@@ -93,7 +93,11 @@ def main():
         ins_table.set_cols_dtype(['t', 't', 't'])
         ins_table.set_cols_align(['c', 'c', 'c'])
 
-        asm_instruction = raw_input('\033[36mINSTRUCTION > \033[0m')
+        if platform.system() in ('Darwin', 'Linux'):
+            asm_instruction = raw_input('\033[36mINSTRUCTION > \033[0m')
+        else:
+            asm_instruction = raw_input('INSTRUCTION > ')
+
         if asm_instruction.lower() in ('quit', 'q'):
             break
         asm_instruction = asm_instruction.split()
