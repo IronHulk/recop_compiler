@@ -1,5 +1,5 @@
 # ReCOP Python Compiler
-A small python program converts ReCOP Processor assembly instruction to 32-bit machine code.
+This small python program converts ReCOP Processor assembly instruction to 32-bit machine code.
 It converts a total number of 33 instructions including AND, OR, ADD, JUMP, DCALLBL and so on.
 
 
